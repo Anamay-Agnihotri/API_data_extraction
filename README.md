@@ -1,36 +1,27 @@
 # Twitter API
 
-One Paragraph of project description goes here
+This repository demonstrates the application of the Twython library (https://twython.readthedocs.io/en/latest/) for obtaining information from the Twitter API service. The `Tweet_extraction` jupyter notebook contains production-ready code for getting periodic batches of tweets while ensuring no repetitions occur in retrieval. Read the twitter API documentation carefully to understand the OAuth procedure before using.
 
-## Getting Started
+## Prerequisites
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+Repository uses Jupyter to host the python code, thus the `.ipynb` extension. Can be used as a regular python script too.
 
-### Prerequisites
+### Software version:
+    - Python 3
+    - Jupyter notebook 5.0.0
 
-What things you need to install the software and how to install them
+### Python packages:
+    - twython
+    - json
+    - pandas
+    - csv
+    - re (regular expressions)
+    - importlib
 
+To install python packages:
 ```
-Give examples
+$ pip install __PackageName__
 ```
-
-### Using code
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Built With
 
@@ -44,6 +35,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* doLoop Technologies, Mumbai, India for the opportunity to work on this as a side project.
