@@ -1,4 +1,4 @@
-keychain = {"twitter":{'api_secret':'' ,
+keychain = {'twitter':{'api_secret':'' ,
                 'api_key':'' ,
                        'access_token':'' ,
                        'access_token_secret':''}}
