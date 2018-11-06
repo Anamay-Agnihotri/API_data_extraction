@@ -1,4 +1,4 @@
-# Twitter API
+# Twitter API data extraction
 
 This repository demonstrates the application of the Twython library (https://twython.readthedocs.io/en/latest/) for obtaining information from the Twitter API service. The `Tweet_extraction` jupyter notebook contains production-ready code for getting periodic batches of tweets while ensuring no repetitions occur in retrieval. Read the twitter API documentation carefully to understand the OAuth procedure before using.
 
